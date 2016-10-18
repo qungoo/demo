@@ -1,0 +1,29 @@
+{
+    "name": "jai/contact",
+    "type": "library",
+    "description": "jai contact",
+    "keywords": ["jai", "contact"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xmake",
+            "email": "xmake@gmail.com",
+            "homepage": "https://xmake.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "psr/http-message": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "provide": {
+        "psr/http-message-implementation": "1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jai\\Contact\\": "src/"
+        }
+    }
+}
